@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun add(view: View) {
-        val data1 = binding.editText.text.toString()
-        val data2 = binding.editText2.text.toString()
+        val data1 = binding.numberText.text.toString()
+        val data2 = binding.numberText2.text.toString()
 
         if (data1.isEmpty() || data2.isEmpty()) {
             Toast.makeText(this@MainActivity, "Please enter a number!", Toast.LENGTH_LONG).show()
@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun extract(view: View){
-        val data1 = binding.editText.text.toString()
-        val data2 = binding.editText2.text.toString()
+        val data1 = binding.numberText.text.toString()
+        val data2 = binding.numberText2.text.toString()
 
         if (data1.isEmpty() || data2.isEmpty()) {
             Toast.makeText(this@MainActivity, "Please enter a number!", Toast.LENGTH_LONG).show()
@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun multiple(view: View){
-        val data1 = binding.editText.text.toString()
-        val data2 = binding.editText2.text.toString()
+        val data1 = binding.numberText.text.toString()
+        val data2 = binding.numberText2.text.toString()
 
         if (data1.isEmpty() || data2.isEmpty()) {
             Toast.makeText(this@MainActivity, "Please enter a number!", Toast.LENGTH_LONG).show()
@@ -61,8 +61,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun divide(view: View){
-        val data1 = binding.editText.text.toString()
-        val data2 = binding.editText2.text.toString()
+        val data1 = binding.numberText.text.toString()
+        val data2 = binding.numberText2.text.toString()
 
         if (data1.isEmpty() || data2.isEmpty()) {
             Toast.makeText(this@MainActivity, "Please enter a number!", Toast.LENGTH_LONG).show()
